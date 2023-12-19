@@ -15,5 +15,19 @@ html {
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Inter', sans-serif;
+    background-color: hsl(36, 100%, 99%);
+}
+
+.main {
+    background-color: hsl(36, 100%, 99%);
+}
+
+.cont {
+    max-width: 117rem;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: red;
 }
