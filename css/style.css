@@ -1,0 +1,29 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+html {
+    font-size: 62.5%; /*10px*/
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: hsl(36, 100%, 99%);
+}
+
+.main {
+    background-color: hsl(36, 100%, 99%);
+}
+
+.cont {
+    max-width: 117rem;
+    margin: 0 auto;
+}
