@@ -2,15 +2,16 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/nav.css">
   <link rel="stylesheet" href="./css/grids.css">
+  <link rel="stylesheet" href="./css/animations.css">
   <title>News homepage</title>
   <style>
     
@@ -18,12 +19,28 @@
 </head>
 <body>
   <header class="header">
-    <div class="cont">
+    <div class="cont header-box">
       <div class="logo-cont">
         <img src="./images/logo.svg" alt="Logo image" class="logo-img">
       </div>
       <nav class="nav">
-
+        <ul class="nav__list">
+          <li class="nav__list-item"><a href="#" class="nav__list-link">Home
+            <div class="nav__list-item-hover-element"></div>
+          </a></li>
+          <li class="nav__list-item"><a href="#" class="nav__list-link">New
+            <div class="nav__list-item-hover-element"></div>
+          </a></li>
+          <li class="nav__list-item"><a href="#" class="nav__list-link">Popular
+            <div class="nav__list-item-hover-element"></div>
+          </a></li>
+          <li class="nav__list-item"><a href="#" class="nav__list-link">Trending
+            <div class="nav__list-item-hover-element"></div>
+          </a></li>
+          <li class="nav__list-item"><a href="#" class="nav__list-link">Categories
+            <div class="nav__list-item-hover-element"></div>
+          </a></li>
+        </ul>
       </nav>
     </div>
   </header>
