@@ -14,16 +14,34 @@ html {
     overflow-x: hidden;
 }
 
+:root {
+    --color-white: hsl(36, 100%, 99%);
+    --color-grey: hsl(233, 8%, 79%);
+    --color-gray: #555;
+    --color-dark-blue: hsl(236, 13%, 42%);
+    --color-red: hsl(5, 85%, 63%);
+}
+
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: hsl(36, 100%, 99%);
+    background-color: var(--color-white);
 }
 
 .main {
-    background-color: hsl(36, 100%, 99%);
+    background-color: var(--color-white);
 }
 
 .cont {
     max-width: 117rem;
     margin: 0 auto;
+}
+
+.header {
+    margin-top: 7.5rem;
+    padding: 0 2.5rem;
+}
+
+.header-box {
+    display: flex;
+    justify-content: space-between;
 }
