@@ -18,6 +18,7 @@ This is my News homepage website.
 ## Built with 
   - Semantic HTML5
   - CSS3
+  - CSS Grid
   - Flex-box
 
 ## Author
