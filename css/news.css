@@ -1,0 +1,14 @@
+
+.news__main-block {
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+}
+
+.news__new-block {
+    grid-column: 3 / 4;
+    grid-row: 1 / 3;
+}
+
+.news__reviews-block {
+    grid-column: 1 / -1;
+}
