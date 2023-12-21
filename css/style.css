@@ -18,9 +18,13 @@ html {
     --color-white: hsl(36, 100%, 99%);
     --color-grey: hsl(233, 8%, 79%);
     --color-gray: #555;
+    --color-light-blue: #999;
     --color-dark-blue: hsl(236, 13%, 42%);
+    --color-very-dark-blue: hsl(240, 100%, 5%);
     --color-red: hsl(5, 85%, 63%);
     --color-red-dark: hsl(5, 85%, 55%);
+    --color-yellow: hsl(35, 77%, 62%);
+    --color-yellow-dark: #f2a652;
     --standard-padding: 0 2.5rem;
     --extra-bold: 800;
     --bold: 700;
