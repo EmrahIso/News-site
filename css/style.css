@@ -20,11 +20,18 @@ html {
     --color-gray: #555;
     --color-dark-blue: hsl(236, 13%, 42%);
     --color-red: hsl(5, 85%, 63%);
+    --color-red-dark: hsl(5, 85%, 55%);
     --standard-padding: 0 2.5rem;
+    --extra-bold: 800;
+    --bold: 700;
+    --normal: 400;
+    --p-font-size: 1.5rem;
+    --big-line-height: 1.6;
+    --small-line-height: 1.1;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Inter', sans-serif;
     background-color: var(--color-white);
 }
 
@@ -43,7 +50,7 @@ body {
 
 .header {
     margin-top: 7.5rem;
-    margin-bottom: 5rem;
+    margin-bottom: 6rem;
 }
 
 .header-box {
