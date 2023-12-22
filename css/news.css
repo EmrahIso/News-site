@@ -1,3 +1,6 @@
+.news {
+  margin-bottom: 6rem;
+}
 
 .news__main-block {
     grid-column: 1 / 3;
@@ -31,6 +34,7 @@
 .news__main-block-info-heading {
     font-weight: var(--extra-bold);
     line-height: var(--small-line-height);
+    color: var(--color-very-dark-blue);
     font-size: 5.6rem;
     letter-spacing: 1px;
 }
@@ -67,6 +71,7 @@
 .news__new-block {
     background-color: var(--color-very-dark-blue);
     padding: 2.5rem;
+    margin-bottom: 2.5rem;
 }
 
 .news__new-block-heading {
@@ -117,4 +122,47 @@
 .news__new-block-list  h3:hover.news__new-block-list-item-description,
 .news__new-block-list p:hover.news__new-block-list-item-description {
     color: var(--color-2-light-blue);
+}
+
+/**************************************************************************************/
+/* Reviews Block */
+
+.news__reviews-block-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+}
+
+.news__reviews-block-list-item {
+    display: flex;
+    gap: 3rem;
+}
+
+.news__reviews-block-list-item-img {
+    height: 14rem;
+}
+
+.news__review-block-list-item-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding-right: 0.6rem;
+}
+
+.news__reviews-block-list-item-number {
+    font-size: 3.2rem;
+    color: var(--color-grey);
+    font-weight: var(--bold);
+}
+
+.news__reviews-block-list-item-heading {
+    font-size: 1.7rem;
+    color: var(--color-very-dark-blue);
+    font-weight: var(--extra-bold);
+}
+
+.news__reviews-block-list-item-description {
+    font-size: var(--p-font-size);
+    color: var(--color-gray);
+    line-height: var(--big-line-height);
 }
