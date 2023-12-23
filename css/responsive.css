@@ -1,0 +1,16 @@
+@media only screen and (max-width: 76.875em) {
+  html {
+    font-size: 56.25%; /*9px*/
+  }
+
+
+  .news__reviews-block-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+ }
+
+  .news__reviews-block-list-item {
+    gap: 2rem;
+  }
+}
