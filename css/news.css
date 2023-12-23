@@ -19,6 +19,11 @@
 /**************************************************************************************/
 /* Main Block */
 
+.news__main-block-image-box {
+    height: 100%;
+    width: 100%;
+}
+
 .news__main-block-img {
     max-width: 100%;
 }
@@ -27,8 +32,10 @@
     display: grid;
     grid-template-columns: 1.1fr  1fr;
     gap: 3.2rem;
+    align-self: center;
     align-items: center;
     padding: 3rem 0;
+    margin: auto 0;
 }
 
 .news__main-block-info-heading {
@@ -132,12 +139,6 @@
 
 /**************************************************************************************/
 /* Reviews Block */
-
-.news__reviews-block-list {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 3rem;
-}
 
 .news__reviews-block-list-item {
     display: flex;
