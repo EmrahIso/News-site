@@ -3,3 +3,16 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 3rem;
 }
+
+.news__main-block {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+} 
+
+
+.news__reviews-block-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+}
