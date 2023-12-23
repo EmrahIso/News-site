@@ -62,7 +62,7 @@
 
 .news__main-block-info-link:hover,
 .news__main-block-info-link:active {
-    background-color: var(--color-red-dark);
+    background-color: var(--color-very-dark-blue);
 }
 
 /**************************************************************************************/
@@ -100,6 +100,7 @@
     font-size: 1.8rem;
     letter-spacing: 0.5px;
     margin-bottom: 1rem;
+    transition: all .2s ease-in-out;
 }
 
 .news__new-block-list-item-description {
@@ -122,6 +123,11 @@
 .news__new-block-list  h3:hover.news__new-block-list-item-description,
 .news__new-block-list p:hover.news__new-block-list-item-description {
     color: var(--color-2-light-blue);
+}
+
+.news__new-block-list-item  h3:hover.news__new-block-list-item-heading,
+.news__new-block-list-item:hover .news__new-block-list-item-heading {
+    color: var(--color-yellow);
 }
 
 /**************************************************************************************/
@@ -159,6 +165,12 @@
     font-size: 1.7rem;
     color: var(--color-very-dark-blue);
     font-weight: var(--extra-bold);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.news__reviews-block-list-item-heading:hover {
+    color: var(--color-red);
 }
 
 .news__reviews-block-list-item-description {
