@@ -110,5 +110,23 @@
     grid-row: 5 / 6;
   }  
 
+  .nav__button {
+    display: inline-block;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+  }
 
+  .nav__button-icon--close {
+    display: none;
+  } 
+
+  .open .nav__button-icon--open {
+    display: none;
+  }
+
+  .open .nav__button-icon--close {
+    display: inline;
+  }
 }
