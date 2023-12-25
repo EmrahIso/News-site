@@ -43,3 +43,7 @@
 .nav__list-link:active .nav__list-item-hover-element {
   opacity: 1;
 }
+
+.nav__button {
+  display: none;
+}
