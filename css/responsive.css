@@ -48,6 +48,14 @@
 
 
 @media only screen and (max-width: 43.75em) {
+  html {
+    font-size: 50%; /*8px*/ 
+  }
+
+  .main-grid {
+    grid-template-columns: 1fr;
+  }
+
   .news__new-block {
     grid-column: 1 / -1;
     grid-row: 3 / 4;
@@ -78,5 +86,29 @@
     padding: 3rem 0;
     margin: auto 0;
   } 
+
+}
+
+@media only screen and (max-width: 31.25em)  {
+  .nav__list {
+    display: none;
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+  }
+
+  .news__main-block {
+    grid-row: 1 / 4;
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  .news__new-block {
+    grid-row: 4 / 5;
+  }
+
+  .news__reviews-block {
+    grid-row: 5 / 6;
+  }  
+
 
 }
