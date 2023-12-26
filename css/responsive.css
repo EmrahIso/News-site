@@ -110,6 +110,11 @@
     grid-row: 5 / 6;
   }  
 
+  .news__main-block-image-box {
+    display: flex;
+    align-items: center;
+  }
+
   .nav__button {
     display: inline-block;
     border: none;
