@@ -55,7 +55,12 @@
       <div class="cont main-grid">
         <div class="news__block news__main-block">
           <div class="news__main-block-image-box">
-            <img src="./images/image-web-3-desktop.jpg" alt="Cool puzzle photo" class="news__main-block-img">
+            <picture class="news__main-block-img">
+              <source media="(min-width:760px)" srcset="./images/image-web-3-desktop.jpg">
+              <source media="(max-width:760px)" srcset="./images/image-web-3-mobile.jpg">
+              <img src="./images/image-web-3-mobile.jpg" alt="Cool puzzle photo" >
+            </picture>
+           
           </div>
           <div class="news__main-block-info-box">
             <h1 class="news__main-block-info-heading">The Bright Future of Web 3.0?</h1>
