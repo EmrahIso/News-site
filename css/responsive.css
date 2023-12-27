@@ -91,10 +91,27 @@
 
 @media only screen and (max-width: 31.25em)  {
   .nav__list {
-    display: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .nav {
     opacity: 0;
     pointer-events: none;
-    visibility: hidden;
+    position: absolute;
+    top: 50vh;
+    right: 0;
+    transform: translate(50%, -50%);
+    transition: all 0.4s ease;
+    z-index: 9999;
+  }
+
+  .open .nav {
+    opacity: 1;
+    pointer-events: all;
+    right: 50vw;
   }
 
   .news__main-block {
@@ -115,12 +132,23 @@
     align-items: center;
   }
 
+
   .nav__button {
     display: inline-block;
+    position: absolute;
+    z-index: 999;
     border: none;
     background-color: transparent;
     outline: none;
     cursor: pointer;
+    right: 1rem;
+    top: 6rem;
+    transform: translate(-50%, 50%);
+  }
+
+  .nav__button .nav__button-icon {
+    position: relative;
+    z-index: 99;
   }
 
   .nav__button-icon--close {
@@ -133,5 +161,30 @@
 
   .open .nav__button-icon--close {
     display: inline;
+    margin-top: -1rem;
   }
+
+
+  .open .nav__list-bg {
+    transform: scale(7, 24);
+    opacity: 1;
+    pointer-events: all;
+    z-index: 99;
+  }
+
+  .open .nav__page-bg {
+    opacity: 0.5;
+    pointer-events: all;
+  }
+
+  .nav__list-link:link,
+  .nav__list-link:visited {
+    font-size: 2.4rem;
+    color: var(--color-very-dark-blue);
+  }
+
+  .nav__list-item-hover-element {
+    display: none;
+  }
+
 }
