@@ -46,4 +46,26 @@
 
 .nav__button {
   display: none;
+  position: relative;
+}
+
+.nav__list-bg {
+ opacity: 0;
+ pointer-events: none;
+ height: 10rem;
+ width: 10rem;
+ background-color: var(--color-white);
+ position: absolute;
+ transition: all 0.3s ease-in-out;
+}
+
+.nav__page-bg {
+  opacity: 0;
+  pointer-events: none;
+  height: 10rem;
+  width: 10rem;
+  transform: scale(25);
+  background-color: var(--color-very-dark-blue);
+  position: absolute;
+  transition: all 0.3s ease-in-out;
 }
