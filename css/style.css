@@ -12,6 +12,8 @@
 html {
     font-size: 62.5%; /*10px*/
     overflow-x: hidden;
+    scroll-behavior: smooth;
+    visibility: inherit;
 }
 
 :root {
@@ -38,6 +40,8 @@ html {
 body {
     font-family: 'Inter', sans-serif;
     background-color: var(--color-white);
+    overflow-x: hidden;
+    position: relative;
 }
 
 .main {
@@ -49,16 +53,19 @@ body {
     margin: 0 auto;
 }
 
-.header,
 .hero {
     padding: var(--standard-padding);
 }
 
 .header {
-    margin: 6rem 0;
+    padding: 6rem 2.5rem;
 }
 
 .header-box {
     display: flex;
     justify-content: space-between;
+}
+
+.no-scroll {
+    overflow-y: hidden;
 }
