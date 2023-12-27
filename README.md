@@ -11,7 +11,7 @@ This is my News homepage website.
 ## Overview
 
 ### Screenshot
-
+![](./images/_home_emrah_repos_News-site_index.html.png)
 
 ### Links
 
