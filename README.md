@@ -15,6 +15,8 @@ This is my News homepage website.
 
 ### Links
 
+- Live preview - [NewsWeb] (https://emrah-news.netlify.app)
+
 ## Built with 
   - Semantic HTML5
   - CSS3
